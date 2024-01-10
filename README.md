@@ -30,3 +30,16 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
 Note:
 - questo bonus richiederà un evento diverso dal 'click'
 - questo bonus richiederà una riflessione extra per quel che riguarda il calcolo della larghezza delle celle ;)
+
+---
+---
+**img traccia:**
+
+![minefield_screenshot](assets/final-layout-img/griglia_campo_minato.png)
+
+---
+---
+
+**img traccia bonus:**
+
+![minfield_bonus_screenshot](assets/final-layout-img/versione_bonus.png)
