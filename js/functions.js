@@ -1,0 +1,1 @@
+console.log("functions-JS-OK");
