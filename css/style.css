@@ -1,3 +1,25 @@
+/* ^ UTILITIES  */
+.container {
+    border: 2px solid red;
+}
+
+/* ^ GENERICS */
 body {
     background-color: blue;
 }
+
+/* ^ HEADER */
+header {
+    min-height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#icon-title img {
+    max-width: 65px;
+    border-radius: 50px;
+}
+
+/* ^ MAIN */
