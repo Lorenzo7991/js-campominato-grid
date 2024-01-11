@@ -1,16 +1,14 @@
 /* ^ UTILITIES  */
-.container {
-    border: 2px solid red;
-}
+
 
 /* ^ GENERICS */
 body {
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.789);
 }
 
 /* ^ HEADER */
 header {
-    min-height: 80px;
+    height: 80px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -23,3 +21,45 @@ header {
 }
 
 /* ^ MAIN */
+main {
+    height: calc(100vh - 160px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#grid {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid .cell {
+    height: 10%;
+    width: 10%;
+    border: 1px solid white;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#grid .cell.clicked {
+    background-color: blue;
+}
+
+/* ^ FOOTER */
+footer {
+    height: 80px;
+    background-color: white;
+}
+
+footer p {
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px 0 0 10px;
+}
