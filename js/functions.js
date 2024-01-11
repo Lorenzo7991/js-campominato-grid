@@ -20,11 +20,13 @@ const startGame = () => {
         //* Creating cell with counter number
         const cell = createCell(i);
 
+        //*Printing cell number on console and adding cell bg color
         cell.addEventListener('click', (event) => {
-
+            //*Verifying clicked class for one and only console output
             if (cell.classList.contains('clicked')) return;
 
             console.log(event.target.innerText);
+            //*Injecting clicked class for cell bg color on click eventS
             cell.classList.add('clicked');
         });
 
