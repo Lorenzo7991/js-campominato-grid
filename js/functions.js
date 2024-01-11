@@ -21,7 +21,11 @@ const startGame = () => {
         const cell = createCell(i);
 
         cell.addEventListener('click', (event) => {
+
+            if (cell.classList.contains('clicked')) return;
+
             console.log(event.target.innerText);
+            cell.classList.add('clicked');
         });
 
         //*Injecting on grid
